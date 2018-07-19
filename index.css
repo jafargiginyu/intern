@@ -1,0 +1,198 @@
+.body{
+    background: #E5E5E5;
+}
+.content{
+	width: 300px;
+	height: 300px;
+	background-color: #FFFFFF;
+	margin: 20px auto;
+	margin-top: 100px;
+	
+}
+
+.top{
+	/* Rectangle 6 */
+
+width: 300px;
+height: 48px;
+background: #008EFA;
+color: #F2F2F2;
+text-align: center;
+padding-top: 15px;
+font-size: 18px;
+}
+
+
+.form-control{
+	margin-top: 30px;	
+}
+
+
+#input2{
+	margin-top: 9px;
+	width: 270px;
+	margin-left: 15px;
+}
+
+
+#input{
+	width: 270px;
+	margin-left: 15px;
+}
+
+
+.check{
+	margin-left: -70px;
+	font-size: 12px;
+	color: black;
+}
+
+.button{
+	background-color: #008EFA;
+	color: #F2F2F2;
+	width: 270px;
+	height: 50px;
+	font-size: 18PX;
+	border-radius: 6px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+
+#forgot{
+	color:#41CAC0;
+	font-size: 14px;
+	text-align: right;
+	margin-top: -15px;
+	font-family:  sans-serif;
+	padding-right: 7px;
+}
+
+#donthave-account{
+	font-size: 13px;
+	color: black;
+	margin-top: 7px;
+}
+
+#createan-account{
+	font-size: 12px;
+	color: #41cac0;
+	margin-top: 7px;
+}
+
+
+#mainNav{
+	position:absolute;
+	border-bottom:1px solid #e9ecef;
+	background-color:#fff;
+	font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif
+	}
+	#mainNav .navbar-brand{
+	font-weight:800;
+	color:#343a40
+	}
+
+	#mainNav .navbar-toggler{
+	font-size:12px;
+	font-weight:800;
+	padding:13px;
+	text-transform:uppercase;
+	color:#343a40
+	}
+
+	#mainNav .navbar-nav>li.nav-item>a{
+	font-size:12px;
+	font-weight:800;
+	letter-spacing:1px;
+	text-transform:uppercase
+}
+
+.img{
+	width: 250px;
+	height: 80px;
+	padding-top: 10px;
+}
+
+
+/* FORM 1 */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+}
+
+#regForm {
+  background-color: #ffffff;
+  margin: 100px auto;
+  font-family: Raleway;
+  padding: 40px;
+  width: 50%;
+  min-width: 300px;
+}
+
+h1 {
+  text-align: center;  
+}
+
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.tab {
+  display: none;
+}
+
+button {
+  background-color: #0769AD;
+  border-radius: 50px;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-family: Raleway;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#prevBtn {
+  background-color: #bbbbbb;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;  
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #4CAF50;
+}
+
+
+/*END OF FORM 1*/
